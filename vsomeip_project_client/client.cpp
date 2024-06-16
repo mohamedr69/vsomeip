@@ -7,6 +7,8 @@
 #include <thread>
 std::mutex mutex;
 std::condition_variable condition;
+using json = nlohmann::json;
+
 #define SERVICE_ID 0x0001
 #define INSTANCE_ID 0x0001
 #define METHOD_ID 0x0001
@@ -23,9 +25,25 @@ void on_availability(vsomeip::service_t _service, vsomeip::instance_t _instance,
   }
   condition.notify_one();
 }
-client::client() : eng(std::make_shared<engine>(0, 0, 0)) {
+client::client(const std::string& config_file)
+    : eng(std::make_shared<engine>(0, 0, 0)) {
+  std::ifstream ifs(config_file);
+  if (!ifs.is_open()) {
+    std::cerr << "Failed to open configuration file: " << config_file
+              << std::endl;
+    return;
+  }
+
+  json config;
+  try {
+    ifs >> config;
+  } catch (const json::parse_error& e) {
+    std::cerr << "Failed to parse configuration file: " << e.what()
+              << std::endl;
+    return;
+  }
   app = vsomeip::runtime::get()->create_application("Client");
-  QFuture<void> future = QtConcurrent::run([this]() {
+  QFuture<void> future = QtConcurrent::run([this, config]() {
     std::cout << "Initializing VSOMEIP...\n" << std::endl;
     app->init();
 

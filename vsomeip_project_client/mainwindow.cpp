@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
   ui->setupUi(this);
 
-  c = new client();
+  c = new client("/home/mohamed/vsomeip_project_client/client.json");
 
   // eng = c->eng;
 }

@@ -17,6 +17,10 @@ random
 ../mainwindow.h
 QMainWindow
 -
+fstream
+-
+nlohmann/json.hpp
+-
 vsomeip/vsomeip.hpp
 -
 engine.h
@@ -25,7 +29,11 @@ service.h
 ../service.h
 
 ../service.h
+fstream
+-
 iostream
+-
+nlohmann/json.hpp
 -
 vsomeip/vsomeip.hpp
 -
@@ -233,6 +241,10 @@ QTimer
 /home/mohamed/vsomeip_project/mainwindow.h
 QMainWindow
 -
+fstream
+-
+nlohmann/json.hpp
+-
 vsomeip/vsomeip.hpp
 -
 engine.h
@@ -241,7 +253,11 @@ service.h
 /home/mohamed/vsomeip_project/service.h
 
 /home/mohamed/vsomeip_project/service.h
+fstream
+-
 iostream
+-
+nlohmann/json.hpp
 -
 vsomeip/vsomeip.hpp
 -

@@ -7,13 +7,32 @@
 #include <QtConcurrent/QtConcurrent>
 
 #include "engine.h"
+using json = nlohmann::json;
 
-Service::Service() {
+Service::Service(const std::string& config_file) {
+  std::ifstream ifs(config_file);
+  if (!ifs.is_open()) {
+    std::cerr << "Failed to open configuration file: " << config_file
+              << std::endl;
+    return;
+  }
+
+  json config;
+  try {
+    ifs >> config;
+  } catch (const json::parse_error& e) {
+    std::cerr << "Failed to parse configuration file: " << e.what()
+              << std::endl;
+    return;
+  }
+
+  ifs.close();
   eng = new Engine();
   app = vsomeip::runtime::get()->create_application();
-  QFuture<void> future = QtConcurrent::run([this]() {
+  QFuture<void> future = QtConcurrent::run([this, config]() {
     std::cout << "Initializing VSOMEIP...\n" << std::endl;
     app->init();
+    app->offer_service(0x1234, 0x5678);
     app->register_message_handler(
         SERVICE_ID, INSTANCE_ID, METHOD_ID,
         [this](const std::shared_ptr<vsomeip::message>& _request) {

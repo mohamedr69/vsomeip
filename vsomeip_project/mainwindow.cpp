@@ -3,8 +3,11 @@
 #include <QTimer>
 
 #include "./ui_mainwindow.h"
+using json = nlohmann::json;
+
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), ui(new Ui::MainWindow), s(new Service) {
+    : QMainWindow(parent), ui(new Ui::MainWindow) {
+  s = new Service("/home/mohamed/vsomeip_project/service.json");
   timer = new QTimer();
   ui->setupUi(this);
   s->eng->simulate_sensor_readings();

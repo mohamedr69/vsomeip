@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include <QMainWindow>
+#include <fstream>
+#include <nlohmann/json.hpp>
 #include <vsomeip/vsomeip.hpp>
 
 #include "engine.h"

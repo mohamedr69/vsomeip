@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../client.h
-QtCore/QCoreApplication
--
-iostream
--
-vsomeip/vsomeip.hpp
--
-engine.h
-../engine.h
-
-../engine.h
-
-../mainwindow.h
-engine.h
-../engine.h
-client.h
-../client.h
-QMainWindow
--
-
 /home/mohamed/Desktop/someIP/vsomeip/interface/vsomeip/application.hpp
 chrono
 -
@@ -196,22 +176,14 @@ stdint.h
 sys/types.h
 -
 
-/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/EWIEGA46WW/moc_mainwindow.cpp
-mainwindow.h
-/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/EWIEGA46WW/mainwindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_mainwindow.cpp
-/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/EWIEGA46WW/moc_mainwindow.cpp
-
 /home/mohamed/vsomeip_project_client/client.h
 QtCore/QCoreApplication
 -
+fstream
+-
 iostream
+-
+nlohmann/json.hpp
 -
 vsomeip/vsomeip.hpp
 -
