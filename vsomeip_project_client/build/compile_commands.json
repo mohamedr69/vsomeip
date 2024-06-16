@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/mohamed/vsomeip_project_client/build",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/mohamed/vsomeip_project_client/build -I/home/mohamed/vsomeip_project_client -I/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /home/mohamed/Desktop/someIP/vsomeip/interface -isystem /home/mohamed/Desktop/someIP/vsomeip/build  -g   -fPIC -std=gnu++11 -o CMakeFiles/vsomeip_project_client.dir/vsomeip_project_client_autogen/mocs_compilation.cpp.o -c /home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/mocs_compilation.cpp",
+  "file": "/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/mohamed/vsomeip_project_client/build",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/mohamed/vsomeip_project_client/build -I/home/mohamed/vsomeip_project_client -I/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /home/mohamed/Desktop/someIP/vsomeip/interface -isystem /home/mohamed/Desktop/someIP/vsomeip/build  -g   -fPIC -std=gnu++11 -o CMakeFiles/vsomeip_project_client.dir/main.cpp.o -c /home/mohamed/vsomeip_project_client/main.cpp",
+  "file": "/home/mohamed/vsomeip_project_client/main.cpp"
+},
+{
+  "directory": "/home/mohamed/vsomeip_project_client/build",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/mohamed/vsomeip_project_client/build -I/home/mohamed/vsomeip_project_client -I/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /home/mohamed/Desktop/someIP/vsomeip/interface -isystem /home/mohamed/Desktop/someIP/vsomeip/build  -g   -fPIC -std=gnu++11 -o CMakeFiles/vsomeip_project_client.dir/mainwindow.cpp.o -c /home/mohamed/vsomeip_project_client/mainwindow.cpp",
+  "file": "/home/mohamed/vsomeip_project_client/mainwindow.cpp"
+},
+{
+  "directory": "/home/mohamed/vsomeip_project_client/build",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/mohamed/vsomeip_project_client/build -I/home/mohamed/vsomeip_project_client -I/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /home/mohamed/Desktop/someIP/vsomeip/interface -isystem /home/mohamed/Desktop/someIP/vsomeip/build  -g   -fPIC -std=gnu++11 -o CMakeFiles/vsomeip_project_client.dir/client.cpp.o -c /home/mohamed/vsomeip_project_client/client.cpp",
+  "file": "/home/mohamed/vsomeip_project_client/client.cpp"
+},
+{
+  "directory": "/home/mohamed/vsomeip_project_client/build",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/mohamed/vsomeip_project_client/build -I/home/mohamed/vsomeip_project_client -I/home/mohamed/vsomeip_project_client/build/vsomeip_project_client_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /home/mohamed/Desktop/someIP/vsomeip/interface -isystem /home/mohamed/Desktop/someIP/vsomeip/build  -g   -fPIC -std=gnu++11 -o CMakeFiles/vsomeip_project_client.dir/engine.cpp.o -c /home/mohamed/vsomeip_project_client/engine.cpp",
+  "file": "/home/mohamed/vsomeip_project_client/engine.cpp"
+}
+]

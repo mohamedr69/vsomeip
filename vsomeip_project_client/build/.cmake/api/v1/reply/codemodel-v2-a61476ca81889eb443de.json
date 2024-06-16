@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vsomeip_project_client",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "vsomeip_project_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vsomeip_project_client-Debug-463bb637a27e4ecb9653.json",
+					"name" : "vsomeip_project_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vsomeip_project_client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vsomeip_project_client_autogen-Debug-c8d83ebd0f94b70d0e3d.json",
+					"name" : "vsomeip_project_client_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mohamed/vsomeip_project_client/build",
+		"source" : "/home/mohamed/vsomeip_project_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,4 @@
+/home/mohamed/vsomeip_project/build/CMakeFiles/rebuild_cache.dir
+/home/mohamed/vsomeip_project/build/CMakeFiles/edit_cache.dir
+/home/mohamed/vsomeip_project/build/CMakeFiles/vsomeip_project.dir
+/home/mohamed/vsomeip_project/build/CMakeFiles/vsomeip_project_autogen.dir
